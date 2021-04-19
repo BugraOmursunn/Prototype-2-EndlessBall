@@ -476,9 +476,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccde8bdd5eae72242819a9b64800fb8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isDraging: 0
-  startTouch: {x: 0, y: 0}
-  swipeDelta: {x: 0, y: 0}
 --- !u!4 &505171118
 Transform:
   m_ObjectHideFlags: 0
@@ -867,7 +864,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 32f6e8cce36be524395e9b3ea787a259, type: 2}
+  - {fileID: 2100000, guid: 97a36fe0242d31d4397e8b272635ebfb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -941,6 +938,7 @@ MonoBehaviour:
   leftPath: {fileID: 12655186}
   rightPath: {fileID: 2053775600}
   mSpeed: 300
+  _swipeManager: {fileID: 505171117}
 --- !u!1 &1805944360
 GameObject:
   m_ObjectHideFlags: 0

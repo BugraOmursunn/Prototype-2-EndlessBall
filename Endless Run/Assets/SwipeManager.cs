@@ -83,11 +83,13 @@ public class SwipeManager : MonoBehaviour
     {
         _startTouch = _swipeLength = Vector2.zero;
         IsDragging = false;
+        _tap = false;
     }
     public Vector2 SwipeDelta { get { return _swipeLength; } }
     public bool SwipeLeft { get { return _swipeLeft; } }
     public bool SwipeRight { get { return _swipeRight; } }
     public bool SwipeUp { get { return _swipeUp; } }
     public bool SwipeDown { get { return _swipeDown; } }
+    public bool Tap { get { return _tap; } }
 
 }

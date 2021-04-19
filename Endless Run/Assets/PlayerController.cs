@@ -35,6 +35,8 @@ public class PlayerController : MonoBehaviour
         }
         if (_swipeManager.SwipeUp)
             GetComponent<Rigidbody>().AddForce(Vector3.up * Time.deltaTime * mSpeed * 10);
+        if (_swipeManager.Tap)
+            Debug.Log("Tap!");
 
     }
 }
